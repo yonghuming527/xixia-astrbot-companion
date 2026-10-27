@@ -1,0 +1,27 @@
+{
+  "enabled": {
+    "description": "启用插件",
+    "type": "bool",
+    "default": true
+  },
+  "target_umo": {
+    "description": "唯一允许发布动态的会话 UMO，必填",
+    "type": "string",
+    "default": ""
+  },
+  "visibility": {
+    "description": "QQ空间查看权限，4为好友可见",
+    "type": "int",
+    "default": 4
+  },
+  "llm_provider_id": {
+    "description": "用于生成动态正文的模型",
+    "type": "string",
+    "default": "deepseek-flash"
+  },
+  "max_length": {
+    "description": "动态正文最大长度",
+    "type": "int",
+    "default": 1000
+  }
+}

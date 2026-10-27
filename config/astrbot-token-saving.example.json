@@ -1,0 +1,27 @@
+{
+  "agent_runner": {
+    "config": {
+      "compression": {
+        "max_turns": 16,
+        "trim_turns": 1,
+        "overflow_strategy": "llm_compress",
+        "instruction": "用不超过300个汉字概括旧对话。仅保留稳定偏好、已确认事实、重要经历、关系变化、待办事项和最新结论；删除寒暄、重复和无关细节，不得编造。",
+        "keep_recent_ratio": 0.15,
+        "provider_id": "<TEXT_LLM_PROVIDER_ID>",
+        "fallback_max_tokens": 128000
+      }
+    }
+  },
+  "platform_settings": {
+    "segmented_reply": {
+      "enable": true,
+      "only_llm_result": true,
+      "interval_method": "random",
+      "interval": "0.8,1.6",
+      "words_count_threshold": 4000,
+      "split_mode": "regex",
+      "regex": "[^\\r\\n]{1,20}",
+      "content_cleanup_rule": ""
+    }
+  }
+}

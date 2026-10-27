@@ -1,0 +1,6 @@
+name: astrbot_plugin_xixia_video_reader
+display_name: 汐夏只读视频理解
+author: xixia-companion
+version: 0.3.0
+desc: 只读理解哔哩哔哩和抖音链接；听歌指令可按歌名准备素材且不占每日五条额度。
+short_desc: 汐夏的受限视频浏览器

@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "target_umo": "qq_<BOT_QQ>:FriendMessage:<USER_QQ>",
+  "visibility": 4,
+  "llm_provider_id": "<TEXT_LLM_PROVIDER_ID>",
+  "max_length": 1000
+}

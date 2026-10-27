@@ -1,0 +1,6 @@
+name: astrbot_plugin_xixia_proactive
+display_name: 汐夏主动消息
+author: xixia-companion
+version: 0.2.0
+desc: 受限随机主动消息，并维护可审核的关系状态、未完事项与性格成长日志。
+short_desc: 汐夏的受限随机主动消息

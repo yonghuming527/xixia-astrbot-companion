@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.log
+*.db
+*.sqlite*
+*.bak
+.pytest_cache/
+.venv/
+venv/
+
+# AstrBot runtime state and generated plugin data
+data/
+plugin_data/
+state.json
+song_downloads/
+temp/
+
+# Never commit credentials or browser sessions
+*_config.json
+!*.example.json
+*.cookie
+*cookies*.txt
+*.env
+.env.*
+*.key
+*.pem
+
+# Large media and model artifacts
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.mp4
+*.mkv
+*.webm
+*.pth
+*.ckpt
+*.safetensors

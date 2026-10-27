@@ -1,0 +1,72 @@
+{
+  "enabled": {
+    "description": "启用只读视频理解",
+    "type": "bool",
+    "default": true
+  },
+  "target_umo": {
+    "description": "唯一允许使用的私聊会话 UMO，必填",
+    "type": "string",
+    "default": ""
+  },
+  "daily_limit": {
+    "description": "哔哩哔哩与抖音合计每日上限",
+    "type": "int",
+    "default": 5
+  },
+  "song_download_enabled": {
+    "description": "允许“我要听歌 + 歌名”按需下载对应歌曲视频（不计浏览额度）",
+    "type": "bool",
+    "default": true
+  },
+  "max_song_seconds": {
+    "description": "单首歌曲素材最多下载秒数",
+    "type": "int",
+    "default": 600
+  },
+  "vision_provider_id": {
+    "description": "视觉模型 Provider ID",
+    "type": "string",
+    "default": "qwen3-vl-8b"
+  },
+  "stt_provider_id": {
+    "description": "语音转文字 Provider ID",
+    "type": "string",
+    "default": "siliconflow-asr"
+  },
+  "max_analyze_seconds": {
+    "description": "每条视频最多分析秒数",
+    "type": "int",
+    "default": 300
+  },
+  "frame_count": {
+    "description": "抽取关键帧数量",
+    "type": "int",
+    "default": 6
+  },
+  "cookie_browsers": {
+    "description": "按顺序只读浏览器 Cookie，逗号分隔",
+    "type": "string",
+    "default": "edge,chrome"
+  },
+  "cookie_file": {
+    "description": "机器人专用的抖音 Cookie 文件",
+    "type": "string",
+    "default": ""
+  },
+  "yt_dlp_module_path": {
+    "description": "yt-dlp Python 模块目录，留空则使用已安装的 yt-dlp",
+    "type": "string",
+    "default": ""
+  },
+  "ffmpeg_path": {
+    "description": "FFmpeg 可执行文件，可填绝对路径或 PATH 中的 ffmpeg",
+    "type": "string",
+    "default": "ffmpeg"
+  },
+  "edge_path": {
+    "description": "Edge 可执行文件（仅抖音只读页面）",
+    "type": "string",
+    "default": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+  }
+}

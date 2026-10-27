@@ -1,0 +1,6 @@
+name: astrbot_plugin_xixia_qzone
+display_name: 汐夏动态发布
+author: xixia-companion
+version: 0.2.0
+desc: 仅允许指定主人通过明确命令或明确自然语言请求发布好友可见的QQ空间文字动态。
+short_desc: 受限的QQ空间文字动态发布

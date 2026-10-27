@@ -1,0 +1,67 @@
+{
+  "enabled": {
+    "description": "启用主动消息",
+    "type": "bool",
+    "default": true
+  },
+  "target_umo": {
+    "description": "唯一允许主动发送的私聊会话 UMO，必填",
+    "type": "string",
+    "default": ""
+  },
+  "min_idle_minutes": {
+    "description": "话题结束后的最短安静时间（分钟）",
+    "type": "int",
+    "default": 90
+  },
+  "min_interval_minutes": {
+    "description": "两条主动消息的最短间隔（分钟）",
+    "type": "int",
+    "default": 90
+  },
+  "daily_min": {
+    "description": "每日随机上限的最小值",
+    "type": "int",
+    "default": 3
+  },
+  "daily_max": {
+    "description": "每日随机上限的最大值",
+    "type": "int",
+    "default": 5
+  },
+  "quiet_start": {
+    "description": "静默开始时间",
+    "type": "string",
+    "default": "23:30"
+  },
+  "quiet_end": {
+    "description": "静默结束时间",
+    "type": "string",
+    "default": "08:30"
+  },
+  "dry_run": {
+    "description": "观察模式（只记录、不发送）",
+    "type": "bool",
+    "default": false
+  },
+  "companion_state_enabled": {
+    "description": "启用关系状态、未完事项和性格成长日志",
+    "type": "bool",
+    "default": true
+  },
+  "reflection_provider_id": {
+    "description": "关系状态反思使用的 LLM Provider ID",
+    "type": "string",
+    "default": "deepseek-flash"
+  },
+  "reflection_turns": {
+    "description": "每多少轮用户对话进行一次后台反思",
+    "type": "int",
+    "default": 12
+  },
+  "max_growth_entries": {
+    "description": "最多保留的成长日记条数",
+    "type": "int",
+    "default": 30
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "target_umo": "qq_<BOT_QQ>:FriendMessage:<USER_QQ>",
+  "daily_limit": 5,
+  "song_download_enabled": true,
+  "max_song_seconds": 600,
+  "vision_provider_id": "<VISION_PROVIDER_ID>",
+  "stt_provider_id": "<STT_PROVIDER_ID>",
+  "max_analyze_seconds": 300,
+  "frame_count": 6,
+  "cookie_browsers": "edge,chrome",
+  "cookie_file": "C:/path/outside/repository/douyin-cookies.txt",
+  "yt_dlp_module_path": "",
+  "ffmpeg_path": "C:/path/to/ffmpeg.exe",
+  "edge_path": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+}

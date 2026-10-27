@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "target_umo": "qq_<BOT_QQ>:FriendMessage:<USER_QQ>",
+  "min_idle_minutes": 90,
+  "min_interval_minutes": 90,
+  "daily_min": 3,
+  "daily_max": 5,
+  "quiet_start": "23:30",
+  "quiet_end": "08:30",
+  "dry_run": true,
+  "companion_state_enabled": true,
+  "reflection_provider_id": "<TEXT_LLM_PROVIDER_ID>",
+  "reflection_turns": 12,
+  "max_growth_entries": 30
+}
